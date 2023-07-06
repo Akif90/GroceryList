@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./public/favicon-16x16.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Shopping Cart</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-card">
+        <div class="img-card">
+          <img class="photo" src="./public/22716420_6676262.svg" alt="" />
+        </div>
+        <div class="form-field">
+          <span>Food Items</span>
+          <input
+            id="inputField"
+            class="input-text"
+            placeholder="Items"
+            type="text"
+          />
+          <button class="btn" id="btn">Add to cart</button>
+        </div>
+        <div class="list">
+          <ul id="shopping"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js" type="module"></script>
+</html>
